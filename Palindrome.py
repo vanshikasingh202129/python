@@ -16,7 +16,6 @@ end_list=cutout_string('VANAVASNAV',0)
 
 slice_str=[]
 for f in end_list:
-    print(f)
     slice_str.append('VANAVASNAV'[0:f+1])
 print(slice_str)
 
