@@ -22,7 +22,6 @@ class palindrome:
             else:
                 return False
         return True
-#string="abcbadefeda"
 pldrome1=palindrome('CDOZVZOROBA')
 pldrome1.substring()
 print(pldrome1.unique_set)
