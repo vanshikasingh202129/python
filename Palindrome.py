@@ -1,17 +1,3 @@
-#def palindrome(mystr):
-#    l = len(mystr)
-#    if l<2:
-#        return True
-#    elif mystr[0] == mystr[l-1]:
-#        if l>2:
-#            return palindrome(mystr[1:l-1])
-#        else:
-#            return False
-#    #else:
-#    #    return False
-#print(palindrome("abcbe"))
-
-
 def check_palindrome(my_str):
     if my_str==my_str[::-1]:
         return True
