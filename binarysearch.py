@@ -12,6 +12,5 @@ def BinarySearch(nums,low,high,x):
 nums = [1,2,3,4,5,6,7]
 x = 7
 print(BinarySearch(nums,1,7,x))
-print("hello")
-print("test")
+
     
