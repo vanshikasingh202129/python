@@ -11,7 +11,7 @@ def cutout_string(my_string,i_index):
             f_index_list.append(f_index)
     return f_index_list
 
-end_list=cutout_string('VANAVASNAV',0)
+#end_list=cutout_string('VANAVASNAV',0)
 
 
 slice_str=[]
