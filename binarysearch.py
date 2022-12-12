@@ -9,8 +9,12 @@ def BinarySearch(nums,low,high,x):
             return BinarySearch(nums,low,mid-1,x)
         else:
             return BinarySearch(nums,mid+1,high,x)
-nums = [1,2,3,4,5,6,7]
+nums = [1,2,3,4,5,6,9]
 x = 7
 print(BinarySearch(nums,1,7,x))
+
+# time complexity of binary search = O(log n)  
+# time complexity of linear search = O(n)
+
 
     
